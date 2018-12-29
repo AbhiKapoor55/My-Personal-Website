@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+html{
+    background-color: #fff; 
+    color: #555;
+    font-family: "Lato", sans-serif;
+    font-weight: 300; 
+    font-size: 20px; 
+    text-rendering: optimizeLegibility; 
+    
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resources/css/abbhi.jpg); 
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.courseName{
+    color: rgb(24, 166, 199);
+}
+
+.courseName:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.courseText{
+    font-size: 14px;
+    color: black; 
+    font-family: monospace;
+}
+
+.courseText:hover{
+    opacity: 0.8; 
+    transform: scale(1.06); 
+}
+
+.abhikapoortext{
+    margin-top: 3%;
+    margin-left: 1%; 
+    width: 1200px;;
+    color: rgb(24, 166, 199); 
+    font-family: "Indie Flower", "Arial";
+    font-size: 220%; 
+    font-weight: 300; 
+    text-transform: lowercase; 
+    letter-spacing: 2px; 
+    word-spacing: 4px; 
+    float: left; 
+}
+
+.row{
+    margin: 0 auto; 
+    margin-top: 1%; 
+    padding: 0 2%; 
+}
+
+.main-nav{ 
+    margin-top: auto;  
+    float: right; 
+    list-style: none; 
+}
+
+.logo{
+    margin-top:auto; 
+    height:70%; 
+    width: auto; 
+    float: left; 
+}
+.main-nav li{
+    display: inline-block; 
+    margin-left: 20px; 
+}
+
+.main-nav li a{
+    padding: 8px 0px; 
+    color: #fff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-size: 90%; 
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.6s;
+    text-transform: lowercase; 
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+    color: rgb(24, 166, 199);
+}
+
+.pageText{
+    position: absolute; 
+    width: 1140px; 
+    top: 60%; 
+    left: 50%; 
+    color: #fff; 
+    font-family: "Lato", "Arial"; 
+    transform: translate(-50%, -50%);
+    text-align:left; 
+}
+
+.line{
+    width:auto; 
+    height: 4px; 
+}
+
+mark.blue{
+    color: rgba(24, 166, 199, 0.54);
+    background:none; 
+}
+
+mark.size{
+    color: #fff;
+    font-size: 25px; 
+    background:none;
+}
+
+.aboutme{
+    margin-top: 12%; 
+    text-align: center; 
+    font-size: 40px; 
+    font-family: cursive; 
+    color: rgb(24, 166, 199); 
+    margin-bottom: 3%; 
+}
+
+.center{
+    width: 100%; 
+}
+.center: hover: 
+{
+    opacity: 0.8; 
+    transform: scale(1.10); 
+}
+
+
+.connectWithMe{
+    margin-top: 2%; 
+    text-align: center; 
+    font-size: 40px; 
+    color: rgb(24, 166, 199); 
+    margin-bottom: 3%; 
+     
+}
+
+.aboutmetext{
+    margin-top: 8%; 
+    text-align: center; 
+    display:inline;
+    
+}
+
+.fltImg{
+    float: left; 
+    margin-right: 10px; 
+    margin-bottom: 5px; 
+    margin-top: 1%; 
+    padding: 2px; 
+    width: 30%; 
+    height: 600px; 
+}
+
+.years{
+    margin-top: 1%; 
+    text-align: left; 
+    font-size: 27px; 
+    color: #000000;  
+    margin-bottom: 3%; 
+    
+}
+
+.btnFb{
+    margin-top: 2%; 
+    float: right; 
+    color: aqua; 
+
+
+}
+
+.firstSize{
+    margin-top: 0px; 
+    color: rgb(24, 166, 199);
+    font-size: 22px; 
+    
+}
+
+.academicPics:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.skills{
+    color: rgb(24, 166, 199);
+    font-size: 17px; 
+    margin-top: 2%; 
+    margin-left: 3%; 
+}
+
+.skillsImgJava{
+    float: center;  
+    margin-bottom: 6%; 
+    width: 35%; 
+    height: 9%; 
+    margin-left: 15%; 
+}
+
+.skillsImgJava:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.skillsImgPython{
+    float: center;  
+    margin-bottom: 3%; 
+    margin-top: 9%;  
+    width: 50%; 
+    height: 20%; 
+}
+
+.skillsImgPython:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.skillsImgHTMLCSS{
+    padding-top: 9%; 
+    float: center;  
+    margin-bottom: 6%; 
+    width: 25%; 
+    height: 9%; 
+    margin-left: 15%; 
+}
+
+.skillsImgHTMLCSS:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+
+.skillsImgAndroid{
+    float: center;  
+    margin-bottom: 5%; 
+    width: 35%; 
+    height: 10%;
+    margin-left: 2%; 
+}
+
+.skillsImgAndroid:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+
+.skillsImgUnity{
+    padding-left: 15%;   
+    padding-top: 5%; 
+    width: 70%; 
+    height: 50%;
+    size: 30%; 
+}
+
+.skillsImgUnity:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.skillsImgCSH{ 
+    padding-top: 5%; 
+    width: 75%; 
+    height: 55%;
+    size: 30%; 
+}
+
+.skillsImgCSH:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.skillsImgLatex{ 
+    padding-top: 5%; 
+    width: 55%; 
+    height: 55%;
+    size: 30%; 
+}
+
+.skillsImgLatex:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.skillsImgGit{ 
+    padding-top: 5%; 
+    width: 55%; 
+    height: 25%;
+}
+
+.skillsImgGit:hover{
+    opacity: 0.8; ; 
+    transform: scale(1.03); 
+}
+
+.smartparkImg:hover{
+    opacity: 0.8; 
+    transform: scale(1.10); 
+}
+
+.skillsImgHTMLCSS:hover{
+    opacity: 0.8; 
+    transform: scale(1.10); 
+}
+
+.smartparkImg{
+    width: 80%; 
+    size: 80%; 
+}
+
+
+.skillsM{
+    color: rgb(24, 166, 199);
+    font-size: 17px; 
+    margin-top: 2%; 
+    margin-left: 18%; 
+    
+}
+.sideprojects{
+    margin-top: 7%; 
+}
+
+.sideprojectinfo{
+    font-size: 16px; 
+    margin-top: 5%; 
+    margin-left: 2%; 
+    
+}
+
+.awardinfo{
+    font-size: 16px; 
+    margin-top: 5%; 
+    margin-left: 2%; 
+    color: black; 
+}
+
+.awardcolor{
+    color: rgb(24, 166, 199); 
+}
+
+.btn-full{
+    display:inline-block; 
+    padding: 10px 30px; 
+    font-weight: 300; 
+    text-decoration: none; 
+    border-radius: 300px; 
+    border: 1px solid;
+    color: rgb(24, 166, 199); 
+}
+
+.btn-full:hover{
+    background-color: rgba(156, 227, 227, 0.21); 
+}
+
+.resumePic{
+    margin-top: 10%; 
+    width:20%; 
+    height: 30%; 
+}
+
+.iframe{
+    margin-top:0%; 
+    width: 100px;
+}
+
+.footerEND{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/newfoot.png); 
+    height: 10vh; 
+    background-size: cover; 
+    background-position: bottom; 
+}
+
+

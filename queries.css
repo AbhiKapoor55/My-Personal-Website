@@ -1,0 +1,509 @@
+
+
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px){
+    
+    .row{padding: 0 1%; }
+    
+    .logo{
+        height:40%; 
+        width: 21%; 
+        float: left;  
+        margin-left: 1%; 
+    }
+    
+    .pageText{
+        width: 100%; 
+        padding: 0 4%; 
+    }
+    
+
+
+
+}
+
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    .row{padding: 0 1%; }
+    
+     .skillsImgJava{
+        padding-top: 9%; 
+        float: center;  
+        width: 35%; 
+        height: 27%; 
+    }
+
+    .skillsImgPython{
+        padding-left: 14%;
+        padding-top: 4%; 
+        float: center;  
+        width: 75%; 
+        height: 57%; 
+        
+    }
+
+    .skillsImgHTMLCSS{
+        padding-left: 2%;
+        float: center;  
+        margin-bottom: 10%; 
+        width: 35%; 
+        height: 15%; 
+        margin-left: 15%; 
+    }
+    
+    .skillsImgAndroid{
+        padding-left: 10%; 
+        margin-bottom: 7%; 
+        width: 45%; 
+        height: 29%;
+    }
+    
+    .skillsImgUnity{
+        padding-left: 14%;  
+        margin-bottom: 5%;
+        padding-top: 5%; 
+        width:65%; 
+        height: 17%;
+    }
+    
+    .skillsImgCSH{
+        padding-left: 6%;   
+        padding-top: 5%;
+        margin-bottom: 9%;
+        width: 80%;   
+        height: 85%;
+    }
+    
+    
+    .skillsImgGit{ 
+        padding-top: 5%;
+        padding-left: 9%;
+        width: 58%; 
+        height: 46%; 
+    }
+    
+    .skillsImgLatex{ 
+        padding-top: 9%; 
+        padding-left: 4%; 
+        width: 65%; 
+        height: 30%;
+    }
+    
+    
+    .aboutmetext{
+        font-size: 14px; 
+    }
+    
+    .logo{
+        height:40%; 
+        width: 27%; 
+        float: left;  
+        margin-left: 1%; 
+    }
+    
+    .pageText{
+        width: 100%; 
+        padding: 0 4%; 
+    }
+    
+    .main-nav{ 
+        visibility: hidden; 
+    }
+    
+    .fltImg{
+        width: 33%; 
+        height: 105%; 
+    }
+}
+
+
+
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px){
+    .logo{
+        height:35%; 
+        width: 47%; 
+        float: left;  
+        margin-left: 1%; 
+    }
+    
+    .courseName{
+        font-size: 11px; 
+    }
+    
+    .courseText{
+        font-size: 10px;
+    }
+    
+    .years{
+        font-size: 17px;      
+    }
+    
+    .pageText{
+        position: absolute; 
+        width: 100%;
+        font-size: 88%; 
+        top: 60%; 
+        left: 50%; 
+        color: #fff; 
+        font-family: "Lato", "Arial"; 
+        transform: translate(-50%, -50%);
+        text-align:left; 
+    } 
+    
+    .fltImg{
+        width: 100%; 
+        height: 40%; 
+    }
+    
+    mark.size{
+        color: #fff;
+        font-size: 62%; 
+        background:none;
+    }
+    
+    .smartparkImg{
+        width: 70%; 
+    }
+    
+    .sideprojectinfo{
+        font-size: 11px; 
+        margin-top: 5%; 
+        margin-left: 2%;    
+    }
+    
+    .aboutme{
+        margin-top: 6%; 
+        text-align: center; 
+        font-size: 30px; 
+        color: rgb(24, 166, 199); 
+        margin-bottom: 3%; 
+    }
+    
+    .aboutmetext{
+        margin-top: 8%; 
+        text-align: center; 
+        display:inline;
+        font-size: 71%; 
+    }
+    
+    .fltImg{
+        float: left; 
+        margin-right: 10px; 
+        margin-bottom: 5px; 
+        margin-top: 1%; 
+        padding: 2px; 
+        width: 240px; 
+        height: 550px; 
+    }
+    
+    .skills{
+        color: rgb(24, 166, 199);
+        font-size: 12px; 
+        margin-top: 2%; 
+        margin-left: 3%; 
+    }
+    
+    .skillsM{
+        color: rgb(24, 166, 199);
+        font-size: 12px; 
+        margin-top: 2%; 
+        margin-left: 18%; 
+    }
+    
+     .main-nav{  
+        visibility: hidden;
+    }
+    
+    .non{
+        font-size: 70%; 
+    }
+    
+    .githubLink{
+        font-size: 12px; 
+    }
+    
+    
+    .skillsImgJava{
+        padding-top: 9%; 
+        float: center;  
+        width: 50%; 
+        height: 30%; 
+    }
+
+    .skillsImgPython{
+        padding-top: 9%;   
+        width: 90%; 
+        height: 50%; 
+        
+    }
+
+    .skillsImgHTMLCSS{
+        padding-top: 14%; 
+        width: 50%; 
+        height: 40%; 
+        margin-left: 15%; 
+    }
+    
+    .skillsImgAndroid{
+        padding-top: 8%;
+        padding-left: 5%; 
+        width: 60%; 
+        height: 46%;
+    }
+    
+    .skillsImgUnity{
+        padding-left: 15%;  
+        width:85%; 
+        height: 37%;
+    }
+    
+    .skillsImgCSH{
+        width: 90%;   
+        height: 85%;
+    }
+    
+    
+    .skillsImgGit{ 
+        padding-top: 2%; 
+        width: 68%; 
+        height: 56%; 
+    }
+    
+    .skillsImgLatex{ 
+        padding-top: 5%;  
+        width: 85%; 
+        height: 65%;
+    }
+    
+    .sideprojectinfo{
+        font-size: 11px;     
+    }
+    
+    .awardcolor{
+        font-size: 14px; 
+    }
+    
+    .awardinfo{
+        font-size: 12px; 
+    } 
+}
+
+
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+    .logo{
+        height:45%; 
+        width: 67%; 
+        float: left;  
+        margin-left: 1%; 
+    }
+    
+    .smartparkImg{
+        width: 40%; 
+        size: 40%; 
+    }
+    
+    .pageText{
+        position: absolute; 
+        width: 100%;
+        font-size: 68%; 
+        top: 60%; 
+        left: 50%; 
+        color: #fff; 
+        font-family: "Lato", "Arial"; 
+        transform: translate(-50%, -50%);
+        text-align:left; 
+    }
+    
+    
+    
+    .main-nav{  
+        visibility: hidden;
+    }
+    
+    mark.size{
+        color: #fff;
+        font-size: 60%; 
+        background:none;
+    }
+    
+    .fltImg{
+        float: left; 
+        margin-right: 10px; 
+        margin-bottom: 5px; 
+        margin-top: 1%; 
+        padding: 2px; 
+        width: 200px; 
+        height: 400px; 
+    }
+    
+    .years{
+        margin-top: 1%; 
+        text-align: left; 
+        font-size: 20px; 
+        color: #000000;  
+        margin-bottom: 3%;  
+    }
+    
+    .firstSize{
+        margin-top: 0px; 
+        color: rgb(24, 166, 199);
+        font-size: 12px; 
+    
+    }
+    
+    .aboutmetext{
+        margin-top: 8%; 
+        text-align: center; 
+        display:inline;
+        font-size: 70%; 
+    }
+    
+    .githubLink{
+        size: 120%; 
+    }
+    
+    .skillsImgJava{
+        padding-top: 9%; 
+        float: center;  
+        width: 30%; 
+        height: 10%; 
+    }
+
+    .skillsImgPython{
+        padding-left: 14%; 
+        float: center;  
+        width: 60%; 
+        height: 19%; 
+        
+    }
+
+    .skillsImgHTMLCSS{
+        padding-left: 2%;
+        float: center;  
+        margin-bottom: 10%; 
+        width: 30%; 
+        height: 10%; 
+        margin-left: 15%; 
+    }
+    
+    .skillsImgAndroid{
+        padding-left: 10%; 
+        margin-bottom: 7%; 
+        width: 40%; 
+        height: 26%;
+    }
+    
+    .skillsImgUnity{
+        padding-left: 10%;  
+        margin-bottom: 5%;
+        padding-top: 5%; 
+        width:55%; 
+        height: 7%;
+    }
+    
+    .skillsImgCSH{
+        padding-left: 12%;   
+        padding-top: 5%;
+        margin-bottom: 9%;
+        width: 60%;   
+        height: 65%;
+    }
+    
+    
+    .skillsImgGit{ 
+        padding-top: 5%;
+        padding-left: 9%;
+        width: 38%; 
+        height: 26%; 
+    }
+    
+    .skillsImgLatex{ 
+        padding-top: 9%; 
+        padding-left: 9%; 
+        width: 55%; 
+        height: 25%;
+    }
+    
+    .skills{
+        color: rgb(24, 166, 199);
+        float:top; 
+        font-size: 17px; 
+        margin-top: 2%; 
+        margin-left: 3%; 
+    }
+    
+     .non{
+        font-size: 90%; 
+    }
+    
+    .skillsM{
+        color: rgb(24, 166, 199);
+        font-size: 20px; 
+        margin-top: 2%; 
+        margin-left: 18%;
+    }
+    
+    
+    .sideprojectinfo{
+        font-size: 14px; 
+    }
+    
+    .fbImg{
+        width: 19%; 
+        height: auto; 
+    }
+    
+    .githubImg{
+        width: 30%; 
+        height: auto; 
+        margin-top: 12%; 
+    }
+
+    .linkedinImg{
+        margin-top: 12%; 
+        width: 30%; 
+        height: auto; 
+    }
+    
+    .homeAddress{
+        font-size: 22px; 
+    }
+
+    .phone{
+        font-size: 19px; 
+    }
+    
+    .homeImg{
+        width: 20%; 
+    }
+    
+    .phoneImg{
+        margin-top: 50px; 
+        width: 20%; 
+        height: 20%; 
+    }
+    
+   .email{
+        margin-top:20px; 
+        width: 25%;
+        height: auto; 
+    } 
+    .emailText{
+        font-size: 18px;
+    }
+    
+    .footerEND{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(resources/img/newfoot.png); 
+        height: 7vh; 
+        background-size: cover; 
+        width: 100%; 
+        background-position: bottom; 
+    }
+    
+}
+    
+}
